@@ -1,0 +1,24 @@
+#hero {
+  padding: 80px 0;
+  .hero {
+    &--tex {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+    }
+    &--cart {
+      width: 400px;
+      height: 400px;
+      background: fixed;
+      background: rgba(97, 97, 240, 0.773);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 110px auto;
+      flex-direction: column;
+      border-radius: 5px;
+    }
+  }
+}
